@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css ">
+    <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+    <!-- JS -->
+    <script src="./js/script.js"></script>
+    <title>Dashboard</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="profile">
+            <div class="profile-img">
+                <img src="assets/path_to_user_avatar.jpg" alt="Profile Image">
+            </div>
+            <div class="profile-name">
+                <h4>Thalita Zahra Sutejo</h4>
+                <p>19622028</p>
+                <p>Mahasiswa STEI-K ITB 2022</p>
+            </div>
+        </div>
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="">Tentang ITB</a></li>
+            <li><a href="">Jadwal</a></li>
+            <li><a href="">Level Siswa</a></li>
+            <li><a href="">Riwayat Latihan</a></li>
+        </ul>
+        <div class="notifikasi">
+            <i class="far fa-bell"></i>
+        </div>
+    </header>
+
+    <div class="dashboard" id="dashboard">
+        <div class="dashboard-container">
+            <div class="left-container">
+                <div class="logo">
+                    <img src="assets/logo-itb.png" alt="">
+                </div>
+                <div class="left-text">
+                    <h3>Dashboard <i class="fas fa-arrow-right"></i></h3>
+                    <h3 class="daftar-matkul">Daftar Mata Kuliah<span class="semester"> Semester 1</span></h3>
+                </div>
+                <div class="left-navigation">
+                    <ul>
+                        <li><a href="matematika.html">Matematika I</a></li>
+                        <li><a href="">Berpikir Komputasional</a></li>
+                        <li><a href="">Fisika Dasar I</a></li>
+                        <li><a href="">Kimia Dasar I</a></li>
+                        <li><a href="">Pancasila</a></li>
+                        <li><a href="">Pengantar Prinsip..</a></li>
+                        <li><a href="">Laboratorium Fisika</a></li>
+                        <li><a href="">Laboratorium Inte..</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="top-container">
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search">
+                        <button><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="calendar">
+                        <div class="left-calendar">
+                            <div class="judul">
+                                <h1>Welcome Back, <span>Thalita!</span></h1>
+                            </div>
+                            <div class="isi">
+                                <p class="isi-1">Yuk, latihan dan lancarkan kompetensimu di Mata Kuliah Tahap Persiapan Bersama</p>
+                                <p class="isi-2">Intip <span>Jadwal Terdekat!</span></p>
+                                <button>Go To Jadwal</button>
+                            </div>
+                            <div class="riwayat-button">
+                                <p>Riwayat Belajar</p>
+                                <div class="riwayat-img">
+                                    <div class="riwayat-1">
+                                        <img class="small-logo" src="assets/kimia.png" alt="Icon 1">
+                                    </div>
+                                    <div class="riwayat-2">
+                                        <img class="small-logo" src="assets/fisika.png" alt="Icon 2">
+                                    </div>
+                                    <div class="riwayat-3">
+                                        <img class="small-logo" src="assets/pancasila.png" alt="Icon 3">
+                                    </div>
+                                    <div class="riwayat-4">
+                                        <img class="small-logo" src="assets/computational.png" alt="Icon 4">
+                                    </div>
+                                    <div class="riwayat-5">
+                                        <img class="small-logo" src="assets/math.png" alt="Icon 5">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-calendar">
+                            <div class="calendar-header">
+                              <button class="prev-month">&lt;</button>
+                              <div class="month-year">
+                                <span class="month">October</span>
+                                <span class="year">2024</span>
+                              </div>
+                              <button class="next-month">&gt;</button>
+                            </div>
+                          
+                            <table class="calendar-table">
+                              <thead>
+                                <tr>
+                                  <th>Mon</th>
+                                  <th>Tue</th>
+                                  <th>Wed</th>
+                                  <th>Thu</th>
+                                  <th>Fri</th>
+                                  <th>Sat</th>
+                                  <th>Sun</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td class="prev-month">30</td>
+                                  <td>1</td>
+                                  <td>2</td>
+                                  <td>3</td>
+                                  <td>4</td>
+                                  <td>5</td>
+                                  <td class="sun">6</td>
+                                </tr>
+                                <tr>
+                                  <td>7</td>
+                                  <td>8</td>
+                                  <td>9</td>
+                                  <td>10</td>
+                                  <td>11</td>
+                                  <td>12</td>
+                                  <td class="sun">13</td>
+                                </tr>
+                                <tr>
+                                  <td>14</td>
+                                  <td>15</td>
+                                  <td>16</td>
+                                  <td>17</td>
+                                  <td>18</td>
+                                  <td>19</td>
+                                  <td class="sun">20</td>
+                                </tr>
+                                <tr>
+                                  <td>21</td>
+                                  <td>22</td>
+                                  <td>23</td>
+                                  <td id="today">24</td>
+                                  <td>25</td>
+                                  <td>26</td>
+                                  <td class="sun">27</td>
+                                </tr>
+                                <tr>
+                                  <td>28</td>
+                                  <td>29</td>
+                                  <td>30</td>
+                                  <td>31</td>
+                                  <td class="next-month">1</td>
+                                  <td class="next-month">2</td>
+                                  <td class="next-month">3</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          
+                            <div class="calendar-footer">
+                              <span>Thursday, 24 October 2024</span>
+                            </div>
+                        </div>                          
+                    </div>
+                </div>
+                <div class="bottom-container">
+                    <div class="matkul">
+                        <h1>Mata Kuliah</h1>
+                    </div>  
+                    <div class="list-matkul">
+                        <div class="matkul-desc" id="matkul1">
+                            <div class="matkul-img">
+                                <img src="assets/matematika1.jpg" alt="Matematika I">
+                            </div>
+                            <div class="matkul-info">
+                                <p>Dwi Indriyati</p>
+                                <h2>Matematika I</h2>
+                            </div>
+                            <div class="ujian">
+                                <div class="ujian-kiri">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Tugas</p>
+                                </div>
+                                <div class="ujian-kanan">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Ujian</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="matkul-desc">
+                            <div class="matkul-img">
+                                <img src="assets/komputasional1.jpg" alt="Komputasional I">
+                            </div>
+                            <div class="matkul-info">
+                                <p>Dwi Indriyati</p>
+                                <h2>Berpikir Komputasional</h2>
+                            </div>
+                            <div class="ujian">
+                                <div class="ujian-kiri">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Tugas</p>
+                                </div>
+                                <div class="ujian-kanan">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Ujian</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="matkul-desc">
+                            <div class="matkul-img">
+                                <img src="assets/fisika1.jpg" alt="Kimia I">
+                            </div>
+                            <div class="matkul-info">
+                                <p>Dwi Indriyati</p>
+                                <h2>Kimia Dasar I</h2>
+                            </div>
+                            <div class="ujian">
+                                <div class="ujian-kiri">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Tugas</p>
+                                </div>
+                                <div class="ujian-kanan">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Ujian</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="matkul-desc">
+                            <div class="matkul-img">
+                                <img src="assets/labfisika1.jpg" alt="Fisika I">
+                            </div>
+                            <div class="matkul-info">
+                                <p>Dwi Indriyati</p>
+                                <h2>Fisika Dasar I</h2>
+                            </div>
+                            <div class="ujian">
+                                <div class="ujian-kiri">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Tugas</p>
+                                </div>
+                                <div class="ujian-kanan">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Ujian</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="matkul-desc">
+                            <div class="matkul-img">
+                                <img src="assets/lab2.jpg" alt="Prinsip I">
+                            </div>
+                            <div class="matkul-info">
+                                <p>Dwi Indriyati</p>
+                                <h2>Pengantar Prinsip..</h2>
+                            </div>
+                            <div class="ujian">
+                                <div class="ujian-kiri">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Tugas</p>
+                                </div>
+                                <div class="ujian-kanan">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Ujian</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="matkul-desc">
+                            <div class="matkul-img">
+                                <img src="assets/pancasila1.jpg" alt="Pancasila I">
+                            </div>
+                            <div class="matkul-info">
+                                <p>Dwi Indriyati</p>
+                                <h2>Pancasila</h2>
+                            </div>
+                            <div class="ujian">
+                                <div class="ujian-kiri">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Tugas</p>
+                                </div>
+                                <div class="ujian-kanan">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Ujian</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="matkul-desc">
+                            <div class="matkul-img">
+                                <img src="assets/komputasional1.jpg" alt="Laboratorium I">
+                            </div>
+                            <div class="matkul-info">
+                                <p>Dwi Indriyati</p>
+                                <h2>Laboratorium Inte..</h2>
+                            </div>
+                            <div class="ujian">
+                                <div class="ujian-kiri">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Tugas</p>
+                                </div>
+                                <div class="ujian-kanan">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Ujian</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="matkul-desc">
+                            <div class="matkul-img">
+                                <img src="assets/fisikafix.jpg" alt="Lab Fisika I">
+                            </div>
+                            <div class="matkul-info">
+                                <p>Dwi Indriyati</p>
+                                <h2>Laboratorium Fisika</h2>
+                            </div>
+                            <div class="ujian">
+                                <div class="ujian-kiri">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Tugas</p>
+                                </div>
+                                <div class="ujian-kanan">
+                                    <i class="fas fa-circle"></i>
+                                    <p>Ujian</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="saran-latihan">
+                        <h1>Saran Latihan</h1>
+                        <div class="latihan">
+                            <div class="slider-container">
+                                <div class="slider">
+                                    <div class="slide">
+                                        <img class="small-logo" src="assets/computational.png" alt="Berpikir Komputasional">
+                                        <div class="info">
+                                            <h2>Berpikir Komputasional</h2>
+                                            <p>Basic Python</p>
+                                            <p>Ardian Febriansyah M. Pd</p>
+                                            <p>⏱ 5 Menit</p>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="small-logo" src="assets/pancasila.png" alt="Pancasila">
+                                        <div class="info">
+                                            <h2>Pancasila</h2>
+                                            <p>Dasar-dasar Pancasila</p>
+                                            <p>Ardian Febriansyah M. Pd</p>
+                                            <p>⏱ 4 Menit</p>
+                                        </div>
+                                    </div>
+                                    <div class="slide">
+                                        <img class="small-logo" src="assets/math.png" alt="Matematika">
+                                        <div class="info">
+                                            <h2>Matematika</h2>
+                                            <p>Turunan</p>
+                                            <p>Ardian Febriansyah M. Pd</p>
+                                            <p>⏱ 10 Menit</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css ">
+    <link rel="stylesheet" type="text/css" href="css/matematika.css">
+    <!-- JS -->
+    <script src="./js/script.js"></script>
+    <script src="./js/quiz.js"></script>
+    <title>Matematika</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="profile">
+            <div class="profile-img">
+                
+            </div>
+            <div class="profile-name">
+                <h4>Thalita Zahra Sutejo</h4>
+                <p>19622028</p>
+                <p>Mahasiswa STEI-K ITB 2022</p>
+            </div>
+        </div>
+        <ul>
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="">Tentang ITB</a></li>
+            <li><a href="">Jadwal</a></li>
+            <li><a href="">Level Siswa</a></li>
+            <li><a href="">Riwayat Latihan</a></li>
+        </ul>
+        <div class="notifikasi">
+            <i class="far fa-bell"></i>
+        </div>
+    </header>
+
+    <div class="dashboard" id="dashboard">
+        <div class="dashboard-container">
+            <div class="left-container">
+                
+            </div>
+            <div class="right-container">
+                <div class="top-container">
+                    <a href="index.html"><i class="fas fa-arrow-left"></i> Dashboard > <span>Matematika</span></a>
+                </div>
+                <div class="bottom-container">
+                    <div class="bottom-container-header">
+                        <div class="bottom-container-header-img">
+                            <img class="logo" src="assets/math.png" alt="matematika"> 
+                        </div>
+                        <div class="bottom-container-header-text">
+                            <h1>Matematika</h1>
+                            <p>Nurfatul Jamnah, S.Pd</p>
+                        </div>
+                    </div>
+                    <div class="bottom-container-content">
+                        <div class="bottom-left">
+                            <div class="bottom-left-top">
+                                <h1>Saran Latihan Lainnya</h1>
+                                <div class="latihan">
+                                    <h3>Basic Python</h3>
+                                    <p>Berpikir Komputasional</p>
+                                    <p class="time"><i class="far fa-clock"></i> 5 menit</p>
+                                </div>
+                                <div class="latihan">
+                                    <h3>Basic Python</h3>
+                                    <p>Berpikir Komputasional</p>
+                                    <p class="time"><i class="far fa-clock"></i> 10 menit</p>
+                                </div>
+                                <div class="latihan">
+                                    <h3>Basic Python</h3>
+                                    <p>Berpikir Komputasional</p>
+                                    <p class="time"><i class="far fa-clock"></i> 4 menit</p>
+                                </div>
+                            </div>
+                            <div class="bottom-left-bottom">
+                                <div class="calendar-header">
+                                    <button class="prev-month">&lt;</button>
+                                    <div class="month-year">
+                                      <span class="month">October</span>
+                                      <span class="year">2024</span>
+                                    </div>
+                                    <button class="next-month">&gt;</button>
+                                  </div>
+                                
+                                  <table class="calendar-table">
+                                    <thead>
+                                      <tr>
+                                        <th>Mon</th>
+                                        <th>Tue</th>
+                                        <th>Wed</th>
+                                        <th>Thu</th>
+                                        <th>Fri</th>
+                                        <th>Sat</th>
+                                        <th>Sun</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td class="prev-month">30</td>
+                                        <td>1</td>
+                                        <td>2</td>
+                                        <td>3</td>
+                                        <td>4</td>
+                                        <td>5</td>
+                                        <td class="sun">6</td>
+                                      </tr>
+                                      <tr>
+                                        <td>7</td>
+                                        <td>8</td>
+                                        <td>9</td>
+                                        <td>10</td>
+                                        <td>11</td>
+                                        <td>12</td>
+                                        <td class="sun">13</td>
+                                      </tr>
+                                      <tr>
+                                        <td>14</td>
+                                        <td>15</td>
+                                        <td>16</td>
+                                        <td>17</td>
+                                        <td>18</td>
+                                        <td>19</td>
+                                        <td class="sun">20</td>
+                                      </tr>
+                                      <tr>
+                                        <td>21</td>
+                                        <td>22</td>
+                                        <td>23</td>
+                                        <td id="today">24</td>
+                                        <td>25</td>
+                                        <td>26</td>
+                                        <td class="sun">27</td>
+                                      </tr>
+                                      <tr>
+                                        <td>28</td>
+                                        <td>29</td>
+                                        <td>30</td>
+                                        <td>31</td>
+                                        <td class="next-month">1</td>
+                                        <td class="next-month">2</td>
+                                        <td class="next-month">3</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                
+                                  <div class="calendar-footer">
+                                    <span>Thursday, 24 October 2024</span>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="bottom-right">
+                            <div class="bottom-right-header">
+                                <img src="assets/path_to_user_avatar.jpg" alt="User Avatar" class="user-avatar">
+                                <input type="text" placeholder="Umumkan Sesuatu ke Matematika">
+                            </div>
+                            <div class="quiz" id="quiz1">
+                                <div class="quiz-header">
+                                  <h3>Quiz 1: Yuk uji kemampuan Matematika Dasar-mu!</h3>
+                                  <p>Rabu, 3 Agustus 2021</p>
+                                </div>
+                              
+                                <div class="quiz-info">
+                                  <div class="deadline">
+                                    <span>Tenggat: Senin, 8 Agustus 18:00</span>
+                                  </div>
+                                  <div class="grade">
+                                    <span>Nilai: <span id="score">Belum ada nilai</span></span>
+                                  </div>
+                                </div>
+                              
+                                <div class="quiz-content">
+                                  <p>Menguji kemampuan Mahasiswa TPB terkait ...</p>
+                                  <div class="progress-bar">
+                                    <div class="progress" style="width: 0%;"></div>
+                                    <span class="progress-text">0%</span>
+                                  </div>
+                                </div>
+                              
+                                <div class="quiz-actions">
+                                  <button class="start-task-btn" id="startTask">Start Task</button>
+                                </div>
+                              
+                                <div class="quiz-comment">
+                                  <img src="assets/path_to_user_avatar.jpg" alt="User Avatar" class="user-avatar">
+                                  <input type="text" placeholder="Tambahkan komentar pribadi">
+                                </div>
+                            </div>                              
+                            <div class="quiz">
+                                <div class="quiz-header">
+                                    <h3>Quiz 2: Yuk uji kemampuanmu terkait Persamaan Kuadrat!!</h3>
+                                    <p>Rabu, 10 Agustus 2021</p>
+                                  </div>
+                                
+                                  <div class="quiz-info">
+                                    <div class="deadline">
+                                      <span>Tenggat: Senin, 15 Agustus 18:00</span>
+                                    </div>
+                                    <div class="grade">
+                                      <span>Nilai: Belum ada nilai</span>
+                                    </div>
+                                  </div>
+                                
+                                  <div class="quiz-content">
+                                    <p>Menguji kemampuan Mahasiswa TPB terkait ...</p>
+                                    <div class="progress-bar">
+                                      <div class="progress" style="width:0%;"></div>
+                                      <span class="progress-text">0%</span>
+                                    </div>
+                                  </div>
+                                
+                                  <div class="quiz-actions">
+                                    <button class="start-task-btn">Start Task</button>
+                                  </div>
+                                
+                                  <div class="quiz-comment">
+                                    <img src="assets/path_to_user_avatar.jpg" alt="User Avatar" class="user-avatar">
+                                    <input type="text" placeholder="Tambahkan komentar pribadi">
+                                  </div>
+                            </div>
+                            <div class="quiz">
+                                <div class="quiz-header">
+                                    <h3>Quiz 3: Yuk uji kemampuanmu terkait Persamaan Mutlak!</h3>
+                                    <p>Rabu, 17 Agustus 2021</p>
+                                  </div>
+                                
+                                  <div class="quiz-info">
+                                    <div class="deadline">
+                                      <span>Tenggat: Senin, 22 Agustus 18:00</span>
+                                    </div>
+                                    <div class="grade">
+                                      <span>Nilai: Belum ada nilai</span>
+                                    </div>
+                                  </div>
+                                
+                                  <div class="quiz-content">
+                                    <p>Menguji kemampuan Mahasiswa TPB terkait ...</p>
+                                    <div class="progress-bar">
+                                      <div class="progress" style="width: 0%;"></div>
+                                      <span class="progress-text">0%</span>
+                                    </div>
+                                  </div>
+                                
+                                  <div class="quiz-actions">
+                                    <button class="start-task-btn">Start Task</button>
+                                  </div>
+                                
+                                  <div class="quiz-comment">
+                                    <img src="assets/path_to_user_avatar.jpg" alt="User Avatar" class="user-avatar">
+                                    <input type="text" placeholder="Tambahkan komentar pribadi">
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
